@@ -7,7 +7,6 @@ import {
   useLocation,
 } from "react-router-dom";
 import {
-  ArrowRight,
   Mail,
   Menu,
   X,

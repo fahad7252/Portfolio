@@ -238,7 +238,6 @@
 
 // export default About;
 import React from "react";
-import { Link } from "react-router-dom";
 
 // const About = () => {
 //   // Organize skills by category
