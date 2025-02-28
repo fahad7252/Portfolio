@@ -1,10 +1,11 @@
 import React, { useState, useEffect } from "react";
 import {
-  BrowserRouter as Router,
+  HashRouter as Router,
   Routes,
   Route,
   Link,
   useLocation,
+  HashRouter,
 } from "react-router-dom";
 import {
   ArrowRight,
@@ -82,7 +83,7 @@ const App = () => {
   }
 
   return (
-    <Router>
+    <HashRouter>
       <div
         className={`min-h-screen transition-colors duration-300 ${
           darkMode ? "dark bg-gray-900 text-white" : "bg-gray-50 text-gray-900"
@@ -113,7 +114,7 @@ const App = () => {
 
         <MobileNavigation />
       </div>
-    </Router>
+    </HashRouter>
   );
 };
 
@@ -258,7 +259,7 @@ const Footer = ({ darkMode }) => {
     >
       <div className="container mx-auto px-6">
         <div className="flex flex-col md:flex-row justify-between items-center">
-          <p>&copy; 2025 Your Portfolio. All rights reserved.</p>
+          <p>&copy; 2025 . All rights reserved.</p>
           <div className="flex mt-4 md:mt-0 space-x-6">
             <a
               href="https://github.com/yourusername"
