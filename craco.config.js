@@ -1,9 +1,8 @@
+// craco.config.js
 module.exports = {
-  webpack: {
-    configure: {
-      output: {
-        publicPath: process.env.NODE_ENV === "production" ? "/portfolio/" : "/",
-      },
+  style: {
+    postcss: {
+      plugins: [require("tailwindcss"), require("autoprefixer")],
     },
   },
 };

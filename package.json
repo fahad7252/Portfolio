@@ -15,14 +15,11 @@
     "react-scripts": "5.0.1",
     "web-vitals": "^2.1.4"
   },
-"homepage": "https://fahad7252.github.io/portfolio",
-"scripts": {
-  "start": "craco start",
-  "build": "craco build",
-  "test": "craco test",
-  "predeploy": "REACT_APP_BASENAME=/portfolio craco build",
-  "deploy": "gh-pages -d build"
-},
+  "scripts": {
+    "start": "craco start",
+    "build": "craco build",
+    "test": "craco test"
+  },
   "eslintConfig": {
     "extends": [
       "react-app",
