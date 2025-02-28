@@ -100,7 +100,7 @@ const Home = ({ darkMode }) => {
               </h1>
 
               <h2 className="text-xl md:text-2xl text-gray-600 dark:text-gray-300 mb-8">
-                Full Stack Developer & UI/UX Designer
+                Full Stack & UI/UX Developer
               </h2>
 
               <p className="text-gray-600 dark:text-gray-300 mb-10 max-w-lg">

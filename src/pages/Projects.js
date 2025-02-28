@@ -45,11 +45,9 @@ const Projects = () => {
       title: "Portfolio Website",
       category: "web",
       tags: ["React", "TailwindCSS"],
-      description:
-        "A sleek portfolio website for a photographer with image gallery and contact form.",
-      image: "/project-images/portfolio.jpg",
-      link: "#",
-      github: "#",
+      description: "My portfolio website.",
+      image: "images/project-images/portfoliowebsite.png",
+      github: "https://github.com/fahad7252/Portfolio.git",
       featured: false,
     },
     {
